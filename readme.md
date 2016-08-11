@@ -60,6 +60,11 @@ __Functional programming libraries and projects for JavaScript:__
 * [Union type](#union-type)
 * [Product type](#product-type)
 * [Option](#option)
+* [Domain](#domain)
+* [Codomain](#codomain)
+* [Range](#range)
+* [Endofunction](#endofunction)
+
 
 
 <!-- /RM -->
@@ -708,5 +713,18 @@ getNestedPrice({item: {price: 9.99}}); // Some(9.99)
 `Option` is also known as `Maybe`. `Some` is sometimes called `Just`. `None` is sometimes called `Nothing`.
 
 ---
+
+## Domain
+What can go into a function is called the Domain.
+
+## Codomain
+What may possibly come out of a function is called the Codomain.
+
+## Range
+What actually comes out of a function is called the Range.
+
+## Endofunction
+A function whose codomain is equal to its domain.
+
 
 __P.S:__ This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors)!
