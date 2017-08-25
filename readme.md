@@ -720,6 +720,9 @@ An object that has a `concat` function that combines it with another object of t
 ;[1].concat([2]) // [1, 2]
 ```
 
+#### Laws:
+* Associative
+
 ## Foldable
 
 An object that has a `reduce` function that can transform that object into some other type.
